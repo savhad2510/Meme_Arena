@@ -1,25 +1,25 @@
 
 # 🎭 Meme Arena
 
-A revolutionary platform where meme culture meets blockchain betting. Battle, bet, and conquer in the world of viral memes.
+A revolutionary platform where meme culture meets blockchain betting on Mantle Network. Battle, bet, and conquer in the world of viral memes.
 
 ## 🚀 Features
 
 - **Meme Battles**: Create and participate in viral meme competitions
-- **Smart Betting**: Place bets on memes you believe will go viral
+- **Smart Betting**: Place bets on memes using Mantle Network
 - **Real-time Chat**: Engage with other users during battles
-- **Blockchain Integration**: Secure and transparent betting system
-- **Social Media Integration**: Track meme virality through Instagram metrics
+- **Blockchain Integration**: Secure and transparent betting system on Mantle
 - **Dynamic Battle System**: Create custom battles and invite participants
+- **Low Gas Fees**: Leveraging Mantle Network's efficient infrastructure
 
 ## 🛠 Tech Stack
 
 - **Frontend**: Next.js 14, React, TypeScript
 - **Styling**: Tailwind CSS
 - **Backend**: Firebase (Real-time Database & Authentication)
-- **Blockchain**: Ethereum (EVM Compatible)
+- **Blockchain**: Mantle Network (EVM Compatible)
 - **Smart Contracts**: Solidity, Foundry
-- **APIs**: Instagram API for virality tracking
+- **Deployment**: Mantle Testnet (Chain ID: 421614)
 
 ## 🏃‍♂️ Getting Started
 
@@ -35,7 +35,7 @@ npm install
 ```
 
 3. Set up environment variables
-Create `.env.local` with:
+Create `.env.local` with Firebase configuration:
 ```
 NEXT_PUBLIC_FIREBASE_API_KEY=
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
@@ -67,38 +67,29 @@ app/
 
 1. **Create or Join a Battle**
    - Select a meme template
-   - Place your bet
+   - Place your bet using Mantle Network
    - Share and promote your meme
 
 2. **Track Progress**
-   - Monitor real-time virality metrics
+   - Monitor real-time betting stats
    - Engage in community discussions
    - View leaderboard updates
 
 3. **Win Rewards**
-   - Winners determined by viral metrics
-   - Automatic reward distribution
+   - Winners determined by community voting
+   - Automatic reward distribution via smart contracts
    - View battle history and earnings
 
 ## 🔗 Smart Contract Architecture
 
-The platform uses two main smart contracts:
-- `MemeBattle.sol`: Handles battle creation and management
+The platform uses two main smart contracts deployed on Mantle Testnet:
+- `MemeBattle.sol`: Handles battle creation and betting management
 - `User.sol`: Manages user profiles and statistics
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Built during ETHGlobal Hackathon
-- Thanks to the blockchain and meme community
