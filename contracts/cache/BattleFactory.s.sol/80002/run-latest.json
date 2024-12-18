@@ -1,0 +1,13 @@
+{
+  "transactions": [
+    {
+      "rpc": "https://polygon-amoy.infura.io/v3/5fde58f84247406ab7c9220d21986a07"
+    },
+    {
+      "rpc": "https://polygon-amoy.infura.io/v3/5fde58f84247406ab7c9220d21986a07"
+    },
+    {
+      "rpc": "https://polygon-amoy.infura.io/v3/5fde58f84247406ab7c9220d21986a07"
+    }
+  ]
+}
