@@ -80,11 +80,6 @@ app/
    - Automatic reward distribution via smart contracts
    - View battle history and earnings
 
-## 🔗 Smart Contract Architecture
-
-The platform uses two main smart contracts deployed on Mantle Testnet:
-- `MemeBattle.sol`: Handles battle creation and betting management
-- `User.sol`: Manages user profiles and statistics
 
 ## 🤝 Contributing
 
